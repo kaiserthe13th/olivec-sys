@@ -2,11 +2,22 @@
 name = "olivec-sys"
 version = "0.1.0"
 edition = "2021"
+description = "C bindings for olive.c, generated with bindgen"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "olivec_sys"
+crate-type = ["staticlib", "rlib"]
 
 [dependencies]
 
 [build-dependencies]
-bindgen = "0.53.1"
+bindgen = ">= 0.54"
+cc = "1.0"
 
+[dev-dependencies]
+stb-sys = { version = "0.6.0", features = ["stb_image_write"] }
+
+[[example]]
+name = "flag_of_japan"
