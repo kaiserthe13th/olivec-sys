@@ -1,3 +1,0 @@
-[submodule "olive-c"]
-	path = vendor/olive-c
-	url = https://github.com/tsoding/olive.c
