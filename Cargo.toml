@@ -8,11 +8,6 @@ links = "olivec"
 repository = "https://github.com/kaiserthe13th/olivec-sys"
 categories = ["api-bindings", "graphics"]
 keywords = ["olivec", "graphics", "bindings"]
-include = [
-    "src/",
-    "build.rs",
-    "vendor/olive-c/olive.c",
-]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

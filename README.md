@@ -1,5 +1,8 @@
 # Rust Bindings to olive.c
 
+[![Crates.io](https://img.shields.io/crates/v/olivec-sys)](https://crates.io/crates/olivec-sys)
+![GitHub](https://img.shields.io/github/license/kaiserthe13th/olivec-sys?color=blue)
+
 <p align="center">
 <a href="https://tsoding.github.io/olive.c/"><img src="./assets/olivec-200.png"></a>
 </p>
